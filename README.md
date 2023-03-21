@@ -19,3 +19,10 @@ datasets:
 - RGB channel histograms
 
 - psnr value between original and stego images
+
+---
+3/21/2023: discard the original PVD functions due to the pixel information loss
+
+- RGB channel histograms
+
+- psnr value

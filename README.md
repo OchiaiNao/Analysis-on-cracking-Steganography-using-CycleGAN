@@ -26,3 +26,10 @@ datasets:
 - RGB channel histograms
 
 - psnr value
+
+---
+3/27/2023: histogram analysis and generate new dataset
+
+- SSIM for image similarity to check if the image is suitable to insert
+
+-- divide the images into two parts, then check SSIM, find best match pairs

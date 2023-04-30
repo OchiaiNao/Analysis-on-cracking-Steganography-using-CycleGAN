@@ -1,35 +1,34 @@
 # Steg GAN analysis on PVD and DWT
 
-3/17/2023: data preprocessing
-
 datasets:
 ## datasets are categorized by image shapes
 
 - total      # 4319 elements
 
-- filtered_1 # 469  elements with highest count
+- most # 469  elements with the highest count
 
-- filtered_2 # 368  elements with second-highest count
+- second # 368  elements with second-highest count
 
-- filtered_3 # 294  elements with third-highest count
+- third # 294  elements with third-highest count
 
----
-3/19/2023: finish codes to generate stego images
+We randomly get 422 images from most, the rest are for valid. 
+Get all 294 images from the third folder, and resize them to the shape of (1024, 768, 3). 
 
-- RGB channel histograms
+Files in ./train/cover/class1: 211-15 from ./most, 147 from ./third, total 343 
 
-- psnr value between original and stego images
+Files in ./train/hidden/class1: 211-15 from ./most, 147 from ./third, total 343
 
----
-3/21/2023: discard the original PVD functions due to the pixel information loss
+Files in ./train/stego/class1: generated from cover and hidden
 
-- RGB channel histograms
+Files in ./valid/cover/class1: 23 from the rest of the most
 
-- psnr value
+Files in ./valid/hidden/class1: 23 from the rest of the most
 
----
-3/27/2023: histogram analysis and generate new dataset
+Files in ./valid/stego/class1: generated from cover and hidden
 
-- SSIM for image similarity to check if the image is suitable to insert
+Files in ./test/cover/class1: 15 from train folder
 
--- divide the images into two parts, then check SSIM, find best match pairs
+Files in ./test/hidden/class1: 15 from train folder
+
+Files in ./test/stego/class1: generated from cover and hidden
+

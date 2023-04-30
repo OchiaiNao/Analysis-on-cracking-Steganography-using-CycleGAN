@@ -1,4 +1,4 @@
-# Steg GAN analysis on PVD in RGB scheme
+# Steg GAN analysis on PVD and DWT
 
 3/17/2023: data preprocessing
 

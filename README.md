@@ -18,17 +18,17 @@ Files in ./train/cover/class1: 211-15 from ./most, 147 from ./third, total 343
 
 Files in ./train/hidden/class1: 211-15 from ./most, 147 from ./third, total 343
 
-Files in ./train/stego/class1: generated from cover and hidden
+Files in ./train/stego/class1: generated from cover and hidden 1 to 1 and 1 to many
 
 Files in ./valid/cover/class1: 23 from the rest of the most
 
 Files in ./valid/hidden/class1: 23 from the rest of the most
 
-Files in ./valid/stego/class1: generated from cover and hidden
+Files in ./valid/stego/class1: generated from cover and hidden 1 to 1 and 1 to many
 
 Files in ./test/cover/class1: 15 from train folder
 
 Files in ./test/hidden/class1: 15 from train folder
 
-Files in ./test/stego/class1: generated from cover and hidden
+Files in ./test/stego/class1: generated from cover and hidden 1 to 1 and 1 to many
 

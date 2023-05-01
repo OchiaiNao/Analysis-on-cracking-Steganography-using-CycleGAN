@@ -1,4 +1,4 @@
-# Steg GAN analysis on PVD and DWT
+# Analysis on cracking PVD and DWT using CycleGAN
 
 datasets:
 ## datasets are categorized by image shapes

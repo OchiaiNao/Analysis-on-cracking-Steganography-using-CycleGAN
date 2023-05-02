@@ -1,4 +1,4 @@
-# Analysis on cracking PVD and DWT using CycleGAN
+# Analysis on cracking MSB and DWT using CycleGAN
 
 datasets:
 ## datasets are categorized by image shapes
